@@ -1,0 +1,228 @@
+body{
+    display:flex;
+    background-color: #3c2f2f;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: Roboto, 'Open sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .flex-container{
+    display: flex;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+ /* ************** header ************************* */
+  
+  .header{
+    font-size: 18px;
+    height:72px;
+    background-color: #6F4436;
+    color: #e2e7eb;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    
+  }
+  
+  .header .logo{
+    font-size:35px;
+    font-weight: bold;
+    color: #f9faf8;
+    padding-right:300px;
+    padding-left: 100px;
+  }
+  
+  /*pun si .header pentru vreau ca eventualele schimbari/adaugari de elemente
+   sa se intample doar in lista din header*/
+  .header ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+  }
+  
+  /*aici ma joc doar cu link-urile din lista din header*/
+  .header ul a{
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-left: 18px;
+    font-size:18px;
+    color:#e2e7eb;
+  }
+  
+ /* ***************** main stage ******************** */
+
+  .main-stage{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #6F4436;
+    padding:100px 0px 100px 0px;
+    /*top right bottom left*/
+    align-items: center;
+  }
+
+  .main-text{
+    display: flex;
+    flex-direction: column;
+    cursor: auto;
+    color:#e2e7eb;
+    padding: 50px 50px 50px 50px;
+    max-width: 30%;
+    font-size: 25px;
+    border:#f9faf8 6px solid;
+    border-radius: 20px;
+  }
+
+  #main-title{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+ .main-stage-image{
+    width:500px;
+    height: fit-content;
+    background-color: #6F4436;
+    border-radius: 15px;
+ }
+  
+  
+  .sign-up-button{
+    font-family: Roboto, sans-serif;
+    color: #6F4436;
+    background-color: #f9faf8;
+    font-weight: bold;
+    border-radius: 9px;
+    border:none;
+    cursor: pointer;
+    padding: 0px;
+    width:140px;
+    height:40px;
+    font-size:17px;
+  }
+
+  .sign-up-button:hover{
+    color:#f9faf8;
+    background-color: #6F4436;
+    border: #f9faf8 2px solid;
+  }
+  
+
+ /* ****************  content  ******************** */
+
+.content{
+  padding:100px 0px 100px 0px;
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #dfccaf;
+}
+
+.content h2{
+  text-align: center;
+  color:#1f2937;
+  font-size: 60px;
+  font-weight: bolder;
+  padding:50px 70px 70px 50px;
+}
+
+
+.cards{
+  display: flex; 
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.card{
+  margin:30px;
+}
+
+.cat{
+  margin: 0;
+}
+
+.card img{
+  width:270px;
+  height:270px;
+  border-radius: 30px;
+  border: #917548 7px solid;
+}
+
+
+/* *************  quote  *******************/
+.quote-assembly{
+  display: flex;
+  flex-direction: column;
+  background-color: #be9b7b;
+  padding: 100px 20% 100px 20%;
+}
+
+.quote-text{
+  font-style: italic;
+  font-size: 40px;
+  font-weight: lighter;
+  justify-content: center;
+  align-items: center;
+  color:black;
+}
+
+.quote-author{
+  font-size: 35px;
+  text-align: right;
+  font-weight: bolder;
+  color:black;
+}
+
+/********************  call to action  ******************/
+
+.hole-action{
+  background-color: #3c2f2f;
+}
+
+
+.call-to-action{
+  display: flex;
+  border-radius: 5px;;
+  background-color: #dfccaf;
+  color:#6F4436;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px auto 100px auto;
+  width: 75%;
+  padding: 50px;
+}
+
+.second-button{
+  border-radius: 10px;
+  border: #f9faf8 2px solid;
+  background-color:#dfccaf;
+  color: #6F4436;
+}
+
+.second-button:hover{
+  color:#dfccaf;
+  background-color: #6F4436;
+}
+
+/*********************  footer  ***********************/  
+
+#footer{
+  height:72px;
+  font-size:17px;
+  background: #6F4436;
+  color:#e2e7eb;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+} 
