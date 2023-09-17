@@ -1,3 +1,7 @@
+*{
+  cursor:auto;
+}
+
 body{
     display:flex;
     background-color: #3c2f2f;
@@ -31,7 +35,7 @@ body{
   }
   
   .header .logo{
-    font-size:35px;
+    font-size:3vh;
     font-weight: bold;
     color: #f9faf8;
     padding-right:300px;
@@ -59,6 +63,7 @@ body{
     padding-left: 18px;
     font-size:18px;
     color:#e2e7eb;
+    background-color: #6F4436;
   }
   
  /* ***************** main stage ******************** */
@@ -67,7 +72,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     background-color: #6F4436;
-    padding:100px 0px 100px 0px;
+    padding:100px 100px 100px 100px;
     /*top right bottom left*/
     align-items: center;
   }
@@ -75,11 +80,10 @@ body{
   .main-text{
     display: flex;
     flex-direction: column;
-    cursor: auto;
     color:#e2e7eb;
     padding: 50px 50px 50px 50px;
     max-width: 30%;
-    font-size: 25px;
+    font-size: 40px;
     border:#f9faf8 6px solid;
     border-radius: 20px;
   }
@@ -91,12 +95,11 @@ body{
   }
   
  .main-stage-image{
-    width:500px;
+    width:fit-content;
     height: fit-content;
     background-color: #6F4436;
     border-radius: 15px;
  }
-  
   
   .sign-up-button{
     font-family: Roboto, sans-serif;
@@ -107,9 +110,9 @@ body{
     border:none;
     cursor: pointer;
     padding: 0px;
-    width:140px;
-    height:40px;
-    font-size:17px;
+    width:170px;
+    height:50px;
+    font-size:25px;
   }
 
   .sign-up-button:hover{
@@ -142,14 +145,12 @@ body{
   display: flex; 
   align-items: center;
   justify-content:space-evenly;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .card{
-  margin:30px;
-}
-
-.cat{
-  margin: 0;
+  margin:10px;
 }
 
 .card img{
@@ -159,7 +160,6 @@ body{
   border-radius: 30px;
   border: #917548 7px solid;
 }
-
 
 /* *************  quote  *******************/
 .quote-assembly{
@@ -171,7 +171,7 @@ body{
 
 .quote-text{
   font-style: italic;
-  font-size: 40px;
+  font-size: 80px;
   font-weight: lighter;
   justify-content: center;
   align-items: center;
@@ -202,6 +202,7 @@ body{
   margin: 100px auto 100px auto;
   width: 75%;
   padding: 50px;
+  font-size:28px;
 }
 
 .second-button{
@@ -220,7 +221,7 @@ body{
 
 #footer{
   height:72px;
-  font-size:17px;
+  font-size:30px;
   background: #6F4436;
   color:#e2e7eb;
   display:flex;
