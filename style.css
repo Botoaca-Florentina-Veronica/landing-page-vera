@@ -67,6 +67,7 @@ a {
   padding-left: 18px;
   font-size: 18px;
   color: #e2e7eb;
+  cursor: pointer;
   background-color: #6F4436;
 }
 
@@ -346,4 +347,5 @@ body.dark-mode {
 
 .dark-mode-toggle button:hover {
   background-color: #503f25;
+  cursor: pointer;
 }
