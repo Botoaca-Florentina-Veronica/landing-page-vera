@@ -236,7 +236,7 @@ a {
 
 /****************** Dark Mode Styles **********************/
 body.dark-mode {
-  background-color: #1a1a1a;
+  background-color: #342b2b;
   color: #c7c7c7;
 }
 
@@ -258,7 +258,7 @@ body.dark-mode {
 
 .dark-mode .header ul a {
   color: #eceeef;
-  background-color: #1a1a1a;
+  background-color: #342b2b;
 }
 
 .dark-mode .main-text {
@@ -271,7 +271,7 @@ body.dark-mode {
 }
 
 .dark-mode .sign-up-button {
-  color: #1a1a1a;
+  color: #3e271b;
   background-color: #eceeef;
 }
 
@@ -290,7 +290,7 @@ body.dark-mode {
 }
 
 .dark-mode .card img {
-  border-color: #565656;
+  border-color: #2f2119;
 }
 
 .dark-mode .quote-assembly {
@@ -307,12 +307,12 @@ body.dark-mode {
 }
 
 .dark-mode .call-to-action {
-  background-color: #292929;
+  background-color: #5a3f2f;
   color: #eceeef;
 }
 
 .dark-mode .second-button {
-  color: #36333e;
+  color: #362318;
   background-color: #eceeef;
 }
 
@@ -322,7 +322,7 @@ body.dark-mode {
 }
 
 .dark-mode #footer {
-  background: #1a1a1a;
+  background: #4e3222;
   color: #eceeef;
 }
 
